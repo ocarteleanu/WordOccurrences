@@ -14,7 +14,6 @@ import java.util.List;
  * @author octavian
  * @see TextAnalyzer
  * @see PairOfWordsAndOccurrences
- * @see SortingTool
  */
 public class DatabaseConnector {
 	/**
@@ -145,6 +144,7 @@ public class DatabaseConnector {
 	}
 	/**
 	 * Displays all the data in the database
+	 * @return an ArrayList of the type that stores pairs of words and occurrences
 	 * @throws Exception used to catch all possible exception that
 	 * may occur 
 	 */
